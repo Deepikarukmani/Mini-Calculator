@@ -4,18 +4,18 @@
 
 a = int(input("A: "))
 b = int(input("B: "))
-operation = input("add/sub/mul/div: ")
+operation = input("add/sub/mul/div/mod/float: ")
 if operation=="add":
     print(a+b)
 elif operation=="sub":
     print(a-b)
-elif operation =="mul":
+elif operation=="mul":
     print(a*b)
-elif operation == "div":
+elif operation=="div":
     print(a/b)
-elif operation == "mod":
+elif operation=="mod":
     print(a%b)
-elif operation == "float":
+elif operation=="float":
     print(a//b)
 else:
     print("invalid operation")
